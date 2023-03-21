@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    font-family:'Poppins';
+}
 .btn-purple {
     color: #fff;
     background-color: #8a2be2;
@@ -6,4 +11,63 @@
 
 .form-top {
     margin-top: 200px;
+}
+.navbar {
+    background-color: #fff; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 10px; 
+  }
+  
+  .navbar-brand {
+    margin-left: 120px;
+  }
+  
+  .navbar-nav {
+    margin-left: auto; 
+  }
+  
+  .nav-link {
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    color: #fff; 
+    text-decoration: none; 
+    padding: 0.5rem 1rem; 
+  }
+  
+  .nav-link:hover {
+    color: orange; 
+  }
+
+.full-nav{
+    background-color: #003F62;
+}
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+  }
+  
+  .input-group > .form-control {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+  }
+  
+  .input-group > .btn {
+    position: relative;
+    flex: 0 0 auto;
+    margin-bottom: 0;
+  }
+  
+  .input-group > .btn:focus {
+    z-index: 3;
+  }
+.buttonOfSearch{
+    width: 80px;
+    background-color: orange;
+    color: white;
+    border-top-left-radius: 10%;
 }

@@ -1,7 +1,6 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -29,5 +28,6 @@
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "nodemon": "^2.0.21",
     "rimraf": "^4.4.0"
-  }
+  },
+  "description": ""
 }
