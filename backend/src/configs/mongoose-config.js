@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const MONGO_CONNECTION_STRING =
-  "mongodb+srv://temuulenpinco:Ng0gp06Ttv9PYhir@cluster0.nc15xly.mongodb.net/green";
+  "mongodb+srv://ermun:0303@akre.6mutaab.mongodb.net/test";
 
 mongoose
   .connect(MONGO_CONNECTION_STRING)
