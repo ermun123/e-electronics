@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
 * {
   font-family: 'Poppins';
   margin: 0;
   padding: 0;
+  font-weight: 9;
 }
 
 .btn-purple {
@@ -53,11 +54,12 @@
 
 
 .searchproduct {
-  width: 300px;
+  width: 400px;
   border-radius: 15px;
   height: 45px;
   border: 0;
   color: grey;
+
 }
 
 .searchButton {
@@ -95,17 +97,31 @@
   height: 71px;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .browser {
   width: 230px;
   background-color: orange;
+  margin: 0;
+  padding: 0;
   height: 100%;
-  margin-left: 5%;
+  margin-left: 4%;
 }
 
 .browsetext {
   font-size: 18px;
-  padding-left: 10%;
-  padding-top: 8%;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.navlist {
+  list-style-type: none;
+}
+
+.return {
+  color: #003F62;
+  font-size: large;
+  position: absolute;
+  right: 80px;
 }

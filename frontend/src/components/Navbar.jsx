@@ -65,9 +65,21 @@ export default function Navbar() {
         </ul>
       </div>
     </nav>
-    <nav className='navbar navbar-expand-lg botnav d-flex'>
+    <nav className='navbar navbar-expand-lg botnav'>
       <div className='browser'>
         <p className='text-light browsetext'>Browser Categories<i className="fa fa-angle-down ms-2"></i></p>
+      </div>
+      <div>
+        <ul className='d-flex navlist pt-2 ms-5 ps-5'>
+          <li>Home<i className="fa fa-angle-down ms-2 me-4 fs-5"></i></li>
+          <li>Catalog<i className="fa fa-angle-down ms-2 me-4 fs-5"></i></li>
+          <li className='me-4'>Blog</li>
+          <li>Pages<i className="fa fa-angle-down ms-2 me-4 fs-5"></i></li>
+          <li>About us</li>
+        </ul>
+      </div>
+      <div className='return'>
+        30 days free return
       </div>
     </nav>
   </>
