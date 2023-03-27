@@ -117,6 +117,7 @@
 
 .navlist {
   list-style-type: none;
+  cursor: pointer;
 }
 
 .return {
@@ -124,4 +125,19 @@
   font-size: large;
   position: absolute;
   right: 80px;
+}
+
+.aliceitem {
+  width: 350px;
+  height: 140px;
+  border-radius: 20px;
+  border: 1px solid grey;
+}
+
+.alicetext {
+  color: #003F62;
+}
+
+.alicetext2 {
+  color: #003F62;
 }
