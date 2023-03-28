@@ -132,6 +132,7 @@
   height: 140px;
   border-radius: 20px;
   border: 1px solid grey;
+  margin: auto;
 }
 
 .alicetext {
@@ -140,4 +141,32 @@
 
 .alicetext2 {
   color: #003F62;
+}
+
+.populartext {
+  font-size: 32px;
+  color: #003F62;
+}
+
+.popularlist {
+  list-style: none;
+  color: #1B5A7D;
+  font-size: 20px;
+
+}
+
+.popularlist li {
+  margin-left: 20px;
+  border: 1px solid;
+  width: 120px;
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.productcard {
+  margin: auto;
+
 }
