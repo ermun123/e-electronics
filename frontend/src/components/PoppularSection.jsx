@@ -158,7 +158,7 @@ const Carousel = () => {
     };
 
     return (
-        <div className='mt-5 mx-5'>
+        <div className='mt-5 mx-5 alicebotsection'>
             <div>
                 <div className="d-flex justify-content-between">
                     <div className="populartext">Popular products</div>

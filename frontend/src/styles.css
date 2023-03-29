@@ -166,7 +166,10 @@
   padding: 2px;
 }
 
-.productcard {
+.alicebotsection {
   margin: auto;
+}
 
+.productcard {
+  width: 2000px;
 }
