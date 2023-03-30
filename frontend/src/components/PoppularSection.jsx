@@ -1,22 +1,3 @@
-// export default function PopularSection() {
-//     return (
-//         <div>
-//             <div className="d-flex justify-content-between mt-5 mx-5">
-//                 <div className="populartext">Popular products</div>
-//                 <div className="">
-//                     <ul className="d-flex popularlist">
-//                         <li>Cameras</li>
-//                         <li>Laptops</li>
-//                         <li>Tablets</li>
-//                         <li>Mouse</li>
-//                     </ul>
-//                 </div>
-//             </div>
-//         </div>
-//     )
-// }
-
-
 import React, { useState } from 'react';
 
 
@@ -134,24 +115,28 @@ const Carousel = () => {
         const productsToShow = productData.slice(startIndex, endIndex);
 
         return (
-            <div className="product-cards">
-                <div className="row">
-                    {productsToShow.slice(0, productsToShow.length / 2).map((product) => (
-                        <div key={product.id} className="col">
-                            <h3>{product.name}</h3>
-                            <p>{product.description}</p>
-                            <img src={product.image} alt={product.name} />
-                        </div>
-                    ))}
-                </div>
-                <div className="row">
-                    {productsToShow.slice(productsToShow.length / 2).map((product) => (
-                        <div key={product.id} className="col">
-                            <h3>{product.name}</h3>
-                            <p>{product.description}</p>
-                            <img src={product.image} alt={product.name} />
-                        </div>
-                    ))}
+            <div className='bigcarousels'>
+                <div className="product-cards">
+                    <div className="row">
+                        {productsToShow.slice(0, productsToShow.length / 2).map((product) => (
+                            <div key={product.id} className="col m-3">
+                                <img src={product.image} alt={product.name} />
+                                <div>
+                                    <h3>{product.name}</h3>
+                                    <p>{product.description}</p>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                    <div className="row">
+                        {productsToShow.slice(productsToShow.length / 2).map((product) => (
+                            <div key={product.id} className="col m-3">
+                                <img src={product.image} alt={product.name} />
+                                <h3>{product.name}</h3>
+                                <p>{product.description}</p>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
         );

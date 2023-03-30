@@ -166,10 +166,16 @@
   padding: 2px;
 }
 
-.alicebotsection {
-  margin: auto;
+.bigcarousels {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
-.productcard {
-  width: 2000px;
+.col {
+  border: 1px solid grey;
+  width: 400px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 30px;
 }
